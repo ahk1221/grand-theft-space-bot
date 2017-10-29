@@ -47,7 +47,7 @@ namespace TheBotDiscord
             _client.MessageReceived += _client_MessageReceived;
             await _client.SetGameAsync("Grand Theft Space v1.3.3.7");
 
-            string token = "MzU2MTM1NjExMzUyMjE5NjU4.DJW8pw.ywozzRJA8XgeeTvcpnOPR_0ydMo";
+            string token = "nosorry";
 
             await _client.LoginAsync(TokenType.Bot, token);
             await _client.StartAsync();
